@@ -106,7 +106,7 @@ def send_join_prompt(chat_id):
         bot.send_message(chat_id, text, reply_markup=kb)
     except Exception:
         try:
-            bot.send_message(chat_id, "🚫 Please join the channel to continue.")
+            bot.send_message(chat_id, "🚫 Please join my channel to continue.")
         except Exception:
             pass
 
