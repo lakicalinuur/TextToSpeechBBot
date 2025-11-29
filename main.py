@@ -207,7 +207,7 @@ def tts_handler(message):
         path = os.path.join(tmp, fname)
         write_wav(path, pcm)
         with open(path, "rb") as audio_file:
-            bot.send_audio(chat_id, audio_file, caption=f"your Voice: {voice} 😝")
+            bot.send_audio(chat_id, audio_file, caption=f"Change Voice: {voice} click ➡️ /start")
         try:
             os.remove(path)
         except Exception:
