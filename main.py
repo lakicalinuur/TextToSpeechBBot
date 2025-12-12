@@ -21,7 +21,7 @@ flask_app = Flask(__name__)
 VOICES = {
     "Ubax 👩🏻‍🦳": "so-SO-UbaxNeural",
     "Muuse 👨🏻‍🦱": "so-SO-MuuseNeural",
-    "Marcello 👨🏻": "it-IT-MarcelloMultilingualNeural" # Codka Cusub
+    "Marcello 👨🏻": "it-IT-MarcelloMultilingual" # Codka Cusub
 }
 
 # Codka Default-ka ah
