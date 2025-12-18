@@ -153,7 +153,7 @@ def handle_text(message):
             bot.send_audio(
                 message.chat.id,
                 audio,
-                caption=f"{CURRENT_VOICE_LABEL} - SomTTS Bot",
+                #caption=f"{CURRENT_VOICE_LABEL} - SomTTS Bot",
                 reply_to_message_id=message.message_id,
                 title=f"Codka_{user_id_str}_{int(time.time())}",
                 performer="SomTTS Bot"
