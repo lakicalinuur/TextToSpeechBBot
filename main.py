@@ -19,7 +19,7 @@ os.makedirs(DOWNLOADS_DIR, exist_ok=True)
 bot = telebot.TeleBot(BOT_TOKEN, threaded=False)
 flask_app = Flask(__name__)
 
-ADMIN_ID = 5240873494
+ADMIN_ID = 6964068910
 CURRENT_VOICE_NAME = "so-SO-MuuseNeural"
 CURRENT_VOICE_LABEL = "Muuse 👨🏻‍🦱"
 
